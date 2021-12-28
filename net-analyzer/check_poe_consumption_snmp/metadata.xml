@@ -7,6 +7,6 @@
   </maintainer>
   <stabilize-allarches/>
   <upstream>
-    <remote-id type="github">antonfischl1980/check_md_mismatch_cnt</remote-id>
+    <remote-id type="github">antonfischl1980/check_poe_consumption_snmp</remote-id>
   </upstream>
 </pkgmetadata>
