@@ -13,6 +13,7 @@ dev-python/whisper 1.1.8: Fixed size round-robin style database
 dev-python/yamlloader 1.0.0: Ordered YAML loader and dumper for PyYAML.
 net-analyzer/check_3par 1.5: Basic support for monitoring HP 3PAR arrays by Nagios
 net-analyzer/check_amavis 1.1 1.1-r1: Nagios plugin to check amavisd-new daemon
+net-analyzer/check_crl 0: plugin that checks a CRL distribution point (CDP) over HTTP.
 net-analyzer/check_email_delivery 0.7.1b-r2: Check Email Delivery is a plugin for Nagios
 net-analyzer/check_esxi_hardware 20200710 20210809: A nagios plugin for checking MS-SQL server health
 net-analyzer/check_fortigate 1.8.8 1.8.10: A nagios plugin for checking Fortigate
