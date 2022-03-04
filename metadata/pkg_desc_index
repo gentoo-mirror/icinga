@@ -23,7 +23,7 @@ net-analyzer/check_loadmaster 20130704: KEMP LoadMaster Nagios Monitoring Plugin
 net-analyzer/check_mailbox_health 1.9: plugin which checks the health of network components and interfaces.
 net-analyzer/check_md_mismatch_cnt 1.0.0: Nagios/Icinga compatible check plugin for software raid (mdadm) mismatch_cnt
 net-analyzer/check_mssql_health 2.6.4.14 2.7.2.2: A nagios plugin for checking MS-SQL server health
-net-analyzer/check_nextcloud 2.0_rc1: Nagios/Centreon/Icinga plugin for nextcloud serverinfo API
+net-analyzer/check_nextcloud 2.0_rc2: Nagios/Centreon/Icinga plugin for nextcloud serverinfo API
 net-analyzer/check_nextcloud_security 1.1: Monitoring plugin to check the status of nextcloud security scan for a given URL
 net-analyzer/check_nwc_health 10.0.0.1 10.0.0.1-r1 10.0.0.2 10.1 10.1.0.1: plugin which checks the health of network components and interfaces.
 net-analyzer/check_openvpn 0.0.1: Nagios/Icinga check for OpenVPN availability monitoring
@@ -40,7 +40,7 @@ www-apps/icingaweb2-module-dependency 1.0.0 1.0.0-r1: maps network topology and 
 www-apps/icingaweb2-module-director 1.8.1: Icinga Web 2 plugin for configuration
 www-apps/icingaweb2-module-fileshipper 1.2.0: Create top-level views of your applications in a graphical editor.
 www-apps/icingaweb2-module-graphite 1.1.0: Icinga Web 2 - ReactPHP-based 3rd party libraries
-www-apps/icingaweb2-module-incubator 0.11.0 0.12.1: Bleeding edge Icinga Web 2 libraries
+www-apps/icingaweb2-module-incubator 0.11.0 0.12.1 0.13.0: Bleeding edge Icinga Web 2 libraries
 www-apps/icingaweb2-module-ipl 0.5.0: This module ships the new Icinga PHP library.
 www-apps/icingaweb2-module-map 1.1.0: Create top-level views of your applications in a graphical editor.
 www-apps/icingaweb2-module-pdfexport 0.10.0: PDF export functionality for Icinga Web 2
