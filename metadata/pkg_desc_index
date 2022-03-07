@@ -2,7 +2,7 @@ app-admin/VMware-vSphere-CLI 6.7.0-r8156551: VMware vSphere Command Line Interfa
 app-misc/go-carbon 0.16.2: Golang implementation of Graphite/Carbon server with classic architecture
 dev-perl/DBD-Oracle 1.80: Oracle database driver for the DBI module
 dev-perl/DBD-Sybase 1.18: DBI driver for XBase compatible database files
-dev-perl/GLPlugin 5.0.1.1-r1: Perl modules providing the basis for labs.consol.de Nagios/Naemon/Icinga plugins
+dev-perl/GLPlugin 5.0.1.1 5.0.1.1-r1: Perl modules providing the basis for labs.consol.de Nagios/Naemon/Icinga plugins
 dev-perl/List-Compare 0.53 0.55: Manipulation of electronic mail addresses
 dev-perl/Net-IMAP-Simple 1.221.200: Perl extension for simple IMAP account handling
 dev-perl/UUID 0.280.0: Perl extension for using UUID interfaces as defined in e2fsprogs
