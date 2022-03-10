@@ -3,8 +3,6 @@ name: 'Regenerate metadata/md5-cache'
 on:
   push:
     branches: [master]
-  pull_request:
-    branches: [master]
   workflow_dispatch:
   workflow_call:
 
@@ -32,6 +30,10 @@ jobs:
     - name: pmaint regen
       run: |
         pmaint regen --force -t$(nproc) icinga
+
+    - name: update-pkg-desc
+      run: |
+        egencache --update-pkg-desc-index --repo icinga
 
     - name: commit and push
       run: |
