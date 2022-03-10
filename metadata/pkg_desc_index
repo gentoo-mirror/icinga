@@ -1,6 +1,6 @@
 app-admin/VMware-vSphere-CLI 6.7.0-r8156551: VMware vSphere Command Line Interface 6.7
 app-misc/go-carbon 0.16.2: Golang implementation of Graphite/Carbon server with classic architecture
-dev-perl/DBD-Oracle 1.80: Oracle database driver for the DBI module
+dev-perl/DBD-Oracle 1.80 1.83: Oracle database driver for the DBI module
 dev-perl/DBD-Sybase 1.18 1.19: DBI driver for XBase compatible database files
 dev-perl/GLPlugin 5.0.1.1 5.0.1.1-r1: Perl modules providing the basis for labs.consol.de Nagios/Naemon/Icinga plugins
 dev-perl/List-Compare 0.53 0.55: Manipulation of electronic mail addresses
