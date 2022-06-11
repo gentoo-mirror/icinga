@@ -137,6 +137,8 @@ jobs:
         cat /etc/portage/make.conf
         mkdir -p /etc/portage/package.license
         cat .github/workflows/emerge-test/package.license >> /etc/portage/package.license/90_SETUP
+        mkdir -p /etc/portage/package.mask
+        cat .github/workflows/emerge-test/package.mask >> /etc/portage/package.mask/90_SETUP
         eselect profile set 'icinga:default/linux/amd64/17.1/no-multilib/icinga'
 
     - name: emerge-sync
@@ -162,4 +164,8 @@ jobs:
     
     - name: eclean packages
       run: |
+        find /var/cache/binpkgs/ -type f -print0|xargs -r0 stat --printf='%Y %n\0' | sort -z | sed -zn '1,10s/[^ ]\{1,\} //p' | xargs -r0 rm -v
+        cd /var/cache/binpkgs/
+        emaint binhost -f
+        popd
         eclean -v packages
