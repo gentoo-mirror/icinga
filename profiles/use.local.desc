@@ -7,3 +7,6 @@ net-analyzer/monitoring-plugins:fping - Install net-analyzer/fping required for 
 net-analyzer/monitoring-plugins:game - Install games-util/qstat required for monitoring FPS servers. Disabling the flag does not remove any plugins.
 net-analyzer/monitoring-plugins:snmp - Install dev-perl/Net-SNMP and net-analyzer/net-snmp required for monitoring SNMP values. Disabling the flag does not remove any plugins.
 net-analyzer/monitoring-plugins:ssh - Install net-misc/openssh required for monitoring SSH servers. Disabling the flag does not remove any plugins.
+www-apps/icingaweb2-module-fileshipper:xlsx - Install dev-lang/php with USE-Flag "zip" required for optional XLSX file support
+www-apps/icingaweb2-module-fileshipper:xml - Install dev-lang/php with USE-Flag "xml" required for optional XML file support
+www-apps/icingaweb2-module-fileshipper:yaml - Install dev-php/pecl-yaml required for optional YAML file support
