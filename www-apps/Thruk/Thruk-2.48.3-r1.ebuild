@@ -11,14 +11,10 @@ LICENSE="GPL-1"
 SLOT="0"
 KEYWORDS="amd64"
 
-PATCHES=(
-	"${FILESDIR}/01-threads.patch"
-)
-
 DEPEND="
+	dev-lang/perl[ithreads]
 	dev-perl/Cpanel-JSON-XS
 	dev-perl/Date-Calc
-	dev-perl/forks
 	dev-perl/thruk_libs
 	www-apache/mod_fcgid
 	www-client/phantomjs-bin
@@ -54,7 +50,7 @@ src_install() {
 	newins "${FILESDIR}/thruk-base.lograte" thruk-base
 
 	keepdir /var/log/"${PN}"
-	fowners apache:apache /var/log/Thruk/
+	fowners apache:apache /var/log/"${PN}"/
 	keepdir /usr/share/"${PN}"/var/
 
 	exeinto /usr/share/"${PN}"/bin/
