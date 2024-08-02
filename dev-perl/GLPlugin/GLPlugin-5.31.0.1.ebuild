@@ -5,7 +5,7 @@ EAPI=8
 
 inherit perl-functions
 
-EGIT_COMMIT="d5f9a329d94bb68fb79bdfde51dd55ff5b0364fd"
+EGIT_COMMIT="6835246cdf6c30291f57309d3e2aec84ee4ba066"
 DESCRIPTION="Perl modules providing the basis for labs.consol.de Nagios/Naemon/Icinga plugins"
 HOMEPAGE="https://github.com/lausser/GLPlugin"
 SRC_URI="https://github.com/lausser/GLPlugin/archive/${EGIT_COMMIT}.tar.gz -> ${P}.tar.gz"
@@ -17,7 +17,7 @@ PATCHES=(
 
 LICENSE="Artistic-2"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
 	dev-perl/JSON
