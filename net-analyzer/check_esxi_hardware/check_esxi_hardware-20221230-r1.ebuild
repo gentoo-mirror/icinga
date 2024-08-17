@@ -6,7 +6,7 @@ EAPI=8
 DESCRIPTION="A nagios/icinga plugin for checking VMWare ESX server health"
 HOMEPAGE="https://www.claudiokuenzler.com/monitoring-plugins/check_esxi_hardware.php"
 SRC_URI="https://github.com/Napsty/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
-RDEPEND="dev-python/pywbem-1.8"
+RDEPEND="dev-python/pywbem"
 
 LICENSE="GPL-2+"
 SLOT="0"

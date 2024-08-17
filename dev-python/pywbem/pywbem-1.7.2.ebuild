@@ -17,8 +17,6 @@ KEYWORDS="amd64 arm arm64 x86 ~amd64-linux ~x86-linux"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
-
 RDEPEND=">=dev-python/ply-3.10[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
 	>=dev-python/six-1.14.0[${PYTHON_USEDEP}]
