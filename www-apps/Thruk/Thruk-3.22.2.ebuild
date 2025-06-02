@@ -7,9 +7,11 @@ DESCRIPTION="multibackend monitoring webinterface for Nagios/Icinga and others"
 HOMEPAGE="https://www.thruk.org"
 SRC_URI="https://github.com/sni/${PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
+S="${WORKDIR}/${P//T/t}"
+
 LICENSE="GPL-1"
 SLOT="0"
-KEYWORDS="amd64"
+KEYWORDS="~amd64"
 
 PATCHES=(
 	"${FILESDIR}/01-threads.patch"
